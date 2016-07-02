@@ -37,3 +37,6 @@ clean:
 
 format:
 	rm -rf $(DISK)
+
+install: $(EXECUTABLE)
+	cp $(EXECUTABLE) /usr/local/bin
